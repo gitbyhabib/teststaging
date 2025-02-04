@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^hrhabib\.info$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.hrhabib\.info$
+RewriteRule ^/?$ "https\:\/\/hrhabib\.info\/" [R=301,L]
